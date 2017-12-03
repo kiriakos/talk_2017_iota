@@ -1,0 +1,36 @@
+/**
+ * Background transparency hack: https://css-tricks.com/snippets/css/transparent-background-images/
+ */
+div.branding.hard {
+	background-image: url(../img/pwc_bg.png); 
+	background-repeat: no-repeat; 
+	background-position: 0% 100%;
+	background-size: 30% 40%;
+	opacity: 0.8;
+	top: 0;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+  	position: absolute;
+  	z-index: -1; 
+}
+div.branding.soft {
+	background-image: url(../img/pwc_bg.jpg); 
+	/*background-image: url(../img/pwccolorlogotransparent.png); */
+	background-repeat: no-repeat; 
+	background-position: 0% 100%;
+	background-size: 115% 100%;
+	opacity: 0.15;
+	top: 0;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+  	position: absolute;
+  	z-index: -2; 
+	transform: scale(-1);
+	filter: blur(20px);
+}
+
+.reveal .progress span {
+	background-color: #EE7852;
+}
