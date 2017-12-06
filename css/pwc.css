@@ -2,7 +2,7 @@
  * Background transparency hack: https://css-tricks.com/snippets/css/transparent-background-images/
  */
 div.branding.hard {
-	background-image: url(../img/pwc_bg.png); 
+	/*background-image: url(../img/pwc_bg.png);*/ 
 	background-repeat: no-repeat; 
 	background-position: 0% 100%;
 	background-size: 30% 40%;
@@ -34,3 +34,11 @@ div.branding.soft {
 .reveal .progress span {
 	background-color: #EE7852;
 }
+
+img[alt=PwC] {
+  height: 20%;
+  max-height: 20%;
+  border: none;
+  background: none;
+}
+
